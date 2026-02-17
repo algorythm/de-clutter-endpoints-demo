@@ -1,4 +1,4 @@
-namespace CodeDemo.Models;
+namespace CodeDemo.Features.Weather;
 
 public record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {

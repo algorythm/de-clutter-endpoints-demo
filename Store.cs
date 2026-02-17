@@ -1,4 +1,7 @@
-using CodeDemo.Models;
+using CodeDemo.Features.Orders;
+using CodeDemo.Features.Products;
+using CodeDemo.Features.Todos;
+using CodeDemo.Features.Users;
 
 namespace CodeDemo;
 

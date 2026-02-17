@@ -1,6 +1,4 @@
-using CodeDemo.Models;
-
-namespace CodeDemo.Endpoints;
+namespace CodeDemo.Features.Products;
 
 public static class ProductEndpoints
 {

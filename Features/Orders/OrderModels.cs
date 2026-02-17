@@ -1,4 +1,4 @@
-namespace CodeDemo.Models;
+namespace CodeDemo.Features.Orders;
 
 public record Order(int Id, int UserId, List<OrderItem> Items, DateTime CreatedAt, string Status);
 public record OrderItem(int ProductId, int Quantity, decimal Total);

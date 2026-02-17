@@ -1,5 +1,9 @@
 using CodeDemo;
-using CodeDemo.Endpoints;
+using CodeDemo.Features.Orders;
+using CodeDemo.Features.Products;
+using CodeDemo.Features.Todos;
+using CodeDemo.Features.Users;
+using CodeDemo.Features.Weather;
 
 var builder = WebApplication.CreateBuilder(args);
 

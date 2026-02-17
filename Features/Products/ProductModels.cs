@@ -1,4 +1,4 @@
-namespace CodeDemo.Models;
+namespace CodeDemo.Features.Products;
 
 public record Product(int Id, string Name, decimal Price, int Stock, string Category);
 public record CreateProductRequest(string Name, decimal Price, int Stock, string? Category);
